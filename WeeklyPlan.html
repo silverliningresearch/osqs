@@ -96,14 +96,12 @@
 
         //Update time info
         document.getElementById("download_time").innerHTML = "*Data updated every Sunday night";
-        document.getElementById("total_quota").innerHTML = " Total quota this month: " + total_quota;
-        document.getElementById("completed_interview").innerHTML = "Total completed: " + completed_interview;
+        document.getElementById("overall_status").innerHTML = " Total quota: " + total_quota  + " - Total completed: " + completed_interview + " - Total remaining: " + total_remaining;
       }
     </script>
   </head>
   <body>
-    <h3 id="total_quota"></h4>
-    <h3 id="completed_interview"></h4>
+    <h4 id="overall_status"></h4>
     <h4 id="download_time"></h4>
 
     <h1>Remaining list</h1>

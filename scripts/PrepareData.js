@@ -22,4 +22,5 @@ function prepareData() {
       quota_data.push(item);
     }
   }
+  total_remaining = total_quota - completed_interview;
 }

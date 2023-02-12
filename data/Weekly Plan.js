@@ -1,6 +1,6 @@
     let weekly_plan = `
     [
-{"Cluster": "1", "Terminal": "TERMINAL 1", "AL": "Airside", "Category": "Food and Beverages", "Name": "Starbucks Coffee (Premises B)", "Number": "#02-59", "Quota": 5, "Completed": 0, "Missing": 5},
+	{"Cluster": "1", "Terminal": "TERMINAL 1", "AL": "Airside", "Category": "Food and Beverages", "Name": "Starbucks Coffee (Premises B)", "Number": "#02-59", "Quota": 5, "Completed": 0, "Missing": 5},
 {"Cluster": "1", "Terminal": "TERMINAL 1", "AL": "Airside", "Category": "Food and Beverages", "Name": "Paul le Cafe", "Number": "02-26", "Quota": 5, "Completed": 0, "Missing": 5},
 {"Cluster": "1", "Terminal": "TERMINAL 1", "AL": "Airside", "Category": "Food and Beverages", "Name": "Mango Tree Kitchen / Archipelago", "Number": "02-39N", "Quota": 5, "Completed": 0, "Missing": 5},
 {"Cluster": "1", "Terminal": "TERMINAL 1", "AL": "Airside", "Category": "Food and Beverages", "Name": "Jamie's Deli", "Number": "02-40N", "Quota": 5, "Completed": 0, "Missing": 5},
@@ -263,9 +263,9 @@
 {"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Airside", "Category": "Shops", "Name": "Perfumes & Cosmetics", "Number": "03-06B", "Quota": 15, "Completed": 0, "Missing": 15},
 {"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Airside", "Category": "Shops", "Name": "Louis Vuitton", "Number": "03-07A(F)", "Quota": 5, "Completed": 0, "Missing": 5},
 {"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Airside", "Category": "Shops", "Name": "T3 Lotte pop-up", "Number": "T3-EA1", "Quota": 10, "Completed": 0, "Missing": 10},
-{"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "MCDONALD'S", "Number": "#01-21", "Quota": 5, "Completed": 0, "Missing": 5},
+{"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "MCDONALD'S", "Number": "#01-21", "Quota": 5, "Completed": 5, "Missing": 0},
 {"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "PARIS BAGUETTE", "Number": "#01-22", "Quota": 5, "Completed": 0, "Missing": 5},
-{"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "HEAVENLY WANG", "Number": "#01-25", "Quota": 5, "Completed": 0, "Missing": 5},
+{"Cluster": "20", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "HEAVENLY WANG", "Number": "#01-25", "Quota": 5, "Completed": 5, "Missing": 0},
 {"Cluster": "21", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "O'COFFEE CLUB", "Number": "#02-81", "Quota": 5, "Completed": 0, "Missing": 5},
 {"Cluster": "21", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "STARBUCKS COFFEE", "Number": "#02-90", "Quota": 5, "Completed": 0, "Missing": 5},
 {"Cluster": "21", "Terminal": "TERMINAL 3", "AL": "Landside", "Category": "Food and Beverages", "Name": "OLD TOWN WHITE COFFEE", "Number": "#02-91", "Quota": 5, "Completed": 0, "Missing": 5},
@@ -392,6 +392,7 @@
 {"Cluster": "29", "Terminal": "TERMINAL 4", "AL": "Landside", "Category": "Shops", "Name": "BAKERY CUISINE", "Number": "#02-11", "Quota": 4, "Completed": 0, "Missing": 4},
 {"Cluster": "29", "Terminal": "TERMINAL 4", "AL": "Landside", "Category": "Shops", "Name": "BEE CHENG HIANG", "Number": "#02-12", "Quota": 4, "Completed": 0, "Missing": 4}
 
+	
     ]
      
     `;

@@ -32,7 +32,7 @@ function prepareData() {
       hard_quota_completed = hard_quota_completed + item.Completed;
     }
 
-    if (item.Completed <= item.Quota) 
+    if (item.Missing > 0) 
     {
       quota_data.push(item);
     }

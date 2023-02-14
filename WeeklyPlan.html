@@ -76,6 +76,36 @@
           'options': options
         });
   
+        //create filter_terminal
+        var filter_terminal_options = {
+          // 'allowHtml': true, 
+          'filterColumnLabel': 'Terminal',
+          "ui": {"label": "", 
+                "labelStacking": 'horizotal',
+                "caption": "Select Terminal"
+                }
+        };
+        var tableFilterTerminal = new google.visualization.ControlWrapper({
+          'controlType': 'CategoryFilter',
+          'containerId': 'filter_terminal',
+          'options': filter_terminal_options
+        });
+
+        //create filter_AL
+        var filter_AL_options = {
+        // 'allowHtml': true, 
+          'filterColumnLabel': 'AL',
+          "ui": {"label": "", 
+                "labelStacking": 'horizotal',
+                "caption": "Select Area"
+                }
+        };
+        var tableFilterAL = new google.visualization.ControlWrapper({
+          'controlType': 'CategoryFilter',
+          'containerId': 'filter_area',
+          'options': filter_AL_options
+        });
+        
         // Create table
         var tableChart = new google.visualization.ChartWrapper({
           'chartType': 'Table',
@@ -89,6 +119,8 @@
         });
 
         dashboard.bind(tableFilter, tableChart);
+        dashboard.bind(tableFilterTerminal, tableChart);
+        dashboard.bind(tableFilterAL, tableChart);
 
         var view = new google.visualization.DataView(data);
         //view.hideColumns([priority_col, priority_col-1]); //hide priority one
@@ -112,8 +144,10 @@
     <h1>Remaining list</h1>
     <div id="dashboard_div">
       <!--Divs that will hold each control and chart-->
+      <div id="filter_terminal" style="font-size: 15px"> </div>
+      <div id="filter_area" style="font-size: 15px"> </div>
       <div id="filter_div" style="font-size: 15px"> </div>
-
+      
       <!-- <div id="2017" style="z-index:1;position: fixed;top: 70px;left: 850px;font-family: Arial;font-size: 13;color:red;">2017</div> -->
       </br>
       <div id="table_div"></div>

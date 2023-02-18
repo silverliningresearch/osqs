@@ -3,7 +3,7 @@ var download_time;
 var total_quota = 2500;
 var total_completed;
 var total_remaining;
-var hard_quota = 2252;
+var hard_quota = 2248;
 var hard_quota_completed;
 var hard_quota_remaining;
 var felxible_quota_remaining;
